@@ -28,7 +28,7 @@ The system allows students, staff, and admins to efficiently manage book loans, 
 - Dashboard with extended library statistics.
 
 # Tech Stack
-Frontend: HTML, CSS, JavaScript
-Backend: PHP (via XAMPP)
-Database: MySQL
-Email Service: Google SMTP (for signup verification)
+- Frontend: HTML, CSS, JavaScript
+- Backend: PHP (via XAMPP)
+- Database: MySQL
+- Email Service: Google SMTP (for signup verification)
