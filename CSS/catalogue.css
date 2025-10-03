@@ -1,0 +1,164 @@
+body {
+	background-color: #090830;
+	color: white;
+	font-family: "Overpass Mono", monospace;
+      font-optical-sizing: auto;
+      font-style: normal;
+	font-size: 14px;
+}
+html {
+	scroll-behavior: smooth;
+}
+    
+
+
+a {
+	color: white;
+	cursor: pointer;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+a:hover {
+	color: lightgray;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.flex-container {
+      display: flex;
+      justify-content: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.category-list-box {
+	width: 250px;
+	padding-left: 30px;
+	font-size: 16px;
+}
+
+.catbook-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.book {
+	display: flex;
+      justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	width: 1200px;
+}
+
+.category-box {
+	width: 1100px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.four-book-container {
+	width: 1100px;
+	display: flex;
+      justify-content: left;
+	align-items: center;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+
+
+.book-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-right: 30px;
+	width: 250px;
+	height: 425px;
+}
+
+.book-container > div {
+	display: flex;
+}
+.image-box {
+	height: 300px;
+	width: 225px;
+	margin-bottom: 15px;
+}
+
+.book-image {
+	height: 300px;
+	width: 225px;
+	opacity: 1;
+	transition: 0.5s ease;
+}
+
+.book-image:hover {
+	opacity: 0.7;
+      box-shadow: 0 0 50px white;
+}
+
+.title-box {
+	width: 225px;
+	margin-bottom: 10px;
+
+}
+
+.author-box {
+	width: 225px;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+
+h2 {
+      font-size: 42px;
+      font-family: "Unica One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: white;
+	text-transform: UPPERCASE;
+	margin: 10px;
+}
+
+/*color*/
+/*
+.flex-container {
+	background-color: gray;
+}
+
+.category-list-box {
+	background-color: darkgray;
+}
+
+.catbook-container {
+	background-color: yellow;
+}
+
+.book {
+	background-color: lightgray;
+}
+
+.category-box {
+	background-color: lightcoral;
+}
+
+.four-book-container {
+	background-color: purple;
+}
+
+.book-container {
+	background-color: brown;
+}
+
+.image-box {
+	background-color: greenyellow;
+}
+
+.title-box {
+	background-color: green;
+}
+
+.author-box {
+	background-color: gray;
+}

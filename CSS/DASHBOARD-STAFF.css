@@ -1,0 +1,60 @@
+.flex-container {
+      display: flex;
+      justify-content: center;
+}
+
+.flex-container > div {
+      font-size: 18px;
+	font-family: "Unica One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+      color: white;
+
+      padding-top: 10px;
+      padding-bottom: 8px;
+      margin: 8px;
+
+      width: 325px;
+      height: 185px;
+      border-radius: 20px;
+	transition-duration: 0.4s;
+}
+
+.flex-container > div:hover {
+	letter-spacing: 2px;
+}
+
+.text {
+      padding: 8px;
+}
+
+h2 {
+	font-family: "Unica One", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	letter-spacing: 4px;
+	text-align: center;
+	color: white;
+
+	margin-top: 0px;
+	margin-bottom: 30px;
+	
+	display: block;
+	transition-duration: 0.4s;
+}
+
+h2:hover {
+	letter-spacing: 5px;
+}
+
+.image {
+      height: 95px;
+}
+
+a {
+	text-decoration: none;
+}

@@ -1,0 +1,94 @@
+body {
+	background-color: #090830;
+	color: white;
+	font-family: "Overpass Mono", monospace;
+	margin-bottom: 20px;
+}
+
+.content-container {
+	display: flex;
+	margin-top: 60px;
+	margin-left: 100px;
+	margin-right: 100px;
+	align-items: flex-start;
+}
+
+.image-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 50px;
+}
+
+.image-container img {
+	width: 250px;
+	height: 325px;
+	margin-bottom: 20px;
+}
+
+.image-container button {
+	width: 184px;
+	height: 45px;
+	border: none;
+	outline: none;
+	background-color: #A83AC4;
+	font-family: "Unica One", sans-serif;
+	border-radius: 35px;
+	color: white;
+	font-size: 16px;
+	display: block;
+	padding: 10px 20px;
+	text-align: center;
+	margin-right: 80px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+h2 {
+	margin-top: 0;
+	font-size: 36px;
+	font-family: "Unica One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.text-container {
+	max-width: 950px;
+	text-align: flex;
+}
+
+.text-container p {
+	font-size: 14px;
+	margin-bottom: 10px;
+	max-width: 100%;
+}
+
+.checkoutButton {
+	width: 184px;
+	height: 45px;
+	border: none;
+	outline: none;
+	background-color: #090830;
+	transition-duration: 0.4s;
+	border: 2px solid #A83AC4;
+	font-family: "Unica One", sans-serif;
+	border-radius: 35px;
+	color: white;
+	font-size: 16px;
+	display: block;
+	padding: 5px 20px;
+	margin-top: 22px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.checkoutButton:hover {
+	color: white;
+	background-color: #752989;
+}

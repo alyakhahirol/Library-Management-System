@@ -1,0 +1,170 @@
+body {
+	padding-bottom: 80px;
+}
+
+/*container*/
+.flex-container {
+      display: flex;
+      justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 0px;
+}
+
+.flex-container > div {
+	display: flex;
+}
+
+.form-container-student{
+	border-style: dashed; 
+	border-width: 3px; 
+	border-color: #A83AC4;
+	width: 600px;
+	border-radius: 35px;
+	padding: 30px;
+}
+
+.form-container-staff{
+	border-style: dashed; 
+	border-width: 3px; 
+	border-color: #BD61A2;
+	width: 600px;
+	border-radius: 35px;
+	padding: 30px;
+}
+
+.form-container-staff2 {
+	border-style: dashed; 
+	border-width: 3px; 
+	border-color: #646EC6;
+	width: 600px;
+	border-radius: 35px;
+	padding: 30px;
+}
+
+input {
+	padding: 5px 15px;
+  	font-family: "Overpass Mono", monospace;
+ 	font-optical-sizing: auto;
+     	font-style: normal;
+ 	border-radius: 35px;
+ 	font-size: 16px;
+	width: 600px;
+}
+
+input:read-only {
+	background-color: lightgray;
+}
+
+input[type="date"], input[type="tel"] {
+	width: 200px;
+}
+
+input[type="radio"] {
+	height: 15px;
+	width: 15px;
+	vertical-align: middle;
+	margin: 5px;
+}
+
+form {
+	margin: 0px;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: lightgray;
+}
+
+h2 {
+	font-family: "Unica One", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:36px;
+	letter-spacing: 4px;
+	color: white;
+	
+	display: block;
+	text-align: center;
+	transition-duration: 0.4s;
+	margin-top: 0px;
+}
+
+h2:hover {
+	letter-spacing: 5px;
+}
+
+/*button*/
+.purpleButton {
+	font-family: "Unica One", sans-serif;
+	font-size: 16px;
+	color: white;
+
+	width: 600px;
+	height: 36px;
+	border: none;
+	outline:none;
+	background-color: #A83AC4;
+	border-radius: 35px;
+
+	cursor: pointer;
+
+	transition-duration: 0.4s;
+	letter-spacing: 1px;
+}
+
+.purpleButton:hover {
+      background-color: #752989;
+	letter-spacing: 2px;
+      color: white;
+}
+
+.pinkButton {
+	font-family: "Unica One", sans-serif;
+	font-size: 16px;
+	color: white;
+
+	width: 600px;
+	height: 36px;
+	border: none;
+	outline:none;
+	background-color: #BD61A2;
+	border-radius: 35px;
+	cursor: pointer;
+
+	transition-duration: 0.4s;
+	letter-spacing: 1px;
+}
+
+.pinkButton:hover {
+      background-color: #BD61A2;
+      color: white;
+	letter-spacing: 2px;
+}
+
+.blueButton {
+	font-family: "Unica One", sans-serif;
+	font-size: 16px;
+	color: white;
+
+	width: 600px;
+	height: 36px;
+	border: none;
+	outline:none;
+	background-color: #646EC6;
+	border-radius: 35px;
+	cursor: pointer;
+
+	transition-duration: 0.4s;
+	letter-spacing: 1px;
+}
+
+.blueButton:hover {
+      background-color: #423ca2;
+      color: white;
+	letter-spacing: 2px;
+}

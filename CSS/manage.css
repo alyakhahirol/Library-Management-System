@@ -1,0 +1,249 @@
+.manage-box {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.manage-box > div {
+	display: flex;
+}
+
+.manage-box > .add {
+	margin-left: 15px;
+}
+
+.leftBox {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.leftBox > div {
+	display: left;
+}
+
+.rightBox {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+
+	margin-top: 35px;
+	margin-bottom: 30px;
+}
+
+.rightBox > div {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+
+.search-bar {
+	display: flex;
+	align-items: center;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 36px;
+	font-family: "Unica One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+
+}
+
+input[type=text] {
+	padding: 5px 15px;
+	padding-right: 50px;
+	font-family: "Overpass Mono", monospace;
+	font-optical-sizing: auto;
+	font-style: normal;
+	border-radius: 35px;
+	font-size: 16px;
+}
+
+.searchButton {
+	background-color: white;
+	border: 0px solid white;
+	padding: 5px 5px;
+	cursor: pointer;
+	width: 40px;
+	border-radius: 20px;
+	margin-left: -40px;
+}
+
+.searchImage {
+	width: 20px;
+}
+
+.addImage {
+	width: 35px;
+}
+
+.bookImage {
+	width: 40px;
+	height: 50px;
+}
+
+.table-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+table {
+	color: white;
+	background-color: #646EC6;
+	border-radius: 20px;
+	border-collapse: collapse;
+	width: 80%;
+}
+
+.big-table {
+	width: 80%;
+}
+
+th {
+	font-size: 18px;
+	font-family: "Unica One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 15px;
+	text-align: left;
+}
+
+.th-center {
+	font-size: 18px;
+	font-family: "Unica One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 15px;
+	text-align: center;
+}
+
+tr:hover {
+	background-color: #7c77cd;
+}
+
+td {
+	font-size: 14px;
+	font-family: "Overpass Mono", monospace;
+	font-optical-sizing: auto;
+	font-style: normal;
+	padding: 7px;
+	text-align: left;
+}
+
+.td-button {
+	text-align: left;
+	width: 70px;
+}
+
+.text-center {
+	font-size: 14px;
+	font-family: "Overpass Mono", monospace;
+	font-optical-sizing: auto;
+	font-style: normal;
+	padding: 7px;
+	text-align: center;
+}
+
+.greenButton, .redButton, .printButton, .whiteButton, .blueButton {
+	font-family: "Unica One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+
+	border-radius: 25px;
+	border: none;
+	width: 100px;
+	padding: 5px 10px;
+
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+
+.blueButton {
+	background-color: #3C46A2;
+}
+
+.blueButton:hover {
+	background-color: #272E6A;
+	color: white;
+}
+
+
+.whiteButton {
+	background-color: white;
+	color: black;
+}
+
+.whiteButton:hover {
+	background: lightgray;
+	color: black;
+}
+.greenButton {
+	background-color: #2E8967;
+}
+
+.greenButton:hover {
+	background-color: #1F674C;
+	color: white;
+}
+
+.redButton {
+	background-color: #B33A3A;
+}
+
+.redButton:hover {
+	background-color: #913030;
+	color: white;
+}
+
+.printButton {
+	background-color: #B15DAB;
+	margin-top: 10px;
+}
+
+.printButton:hover {
+	background-color: #72366d;
+	color: white;
+}
+
+.circle-button {
+	display: block;
+	background-color: white;
+	border-radius: 25px;
+	transition-duration: 0.4s;
+	border: 2px solid white;
+	width: 35px;
+	height: 35px;
+	margin-right: 20px;
+	padding: 0;
+	text-align: center;
+	float: left;
+}
+
+.circle-button:hover {
+	border: 2px solid lightgray;
+	background-color: lightgray;
+	border-radius: 50px;
+}
+
+.circle-button-link {
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: -7px;
+	margin-left: -8px;
+}

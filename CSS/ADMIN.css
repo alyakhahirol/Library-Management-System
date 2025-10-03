@@ -1,0 +1,78 @@
+.redButton {
+	background-color: #B33A3A;
+}
+
+.greenButton {
+	background-color: #2E8967;
+}
+
+.greenButton:hover {
+	background-color: #1F674C;
+}
+
+.redButton:hover {
+	background-color: #913030;
+}
+
+.blueButton {
+	background-color: #4B4F9F;
+	border-radius: 25px;
+	transition-duration: 0.4s;
+	border: none;
+	width: 80px;
+	color: white;
+	text-align: center;
+	padding: 5px 10px;
+	font-family: "Unica One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.blueButton:hover {
+	background-color: #3A3D7A;
+	color: white;
+}
+
+.redButton {
+	width: 160px;
+}
+
+.form-container {
+	background-color: #BD61A2;
+	padding-bottom: 30px;
+}
+.pinkButton {
+	background-color: #713a61;
+	border-radius: 25px;
+	transition-duration: 0.4s;
+	border: none;
+	width: 430px;
+	color: white;
+	text-align: center;
+	padding: 8px 10px;
+	font-family: "Unica One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.pinkButton:hover {
+	background-color: #974d81;
+	color: white;
+}
+
+
+table {
+	background: #BD61A2;
+}
+
+tr:hover {
+	background-color: #974d81;
+}
+
+h2 {
+	text-transform: uppercase;
+}

@@ -1,0 +1,123 @@
+body {
+	background-color:#0F1331;
+	color: white;
+	font-family: "Overpass Mono", monospace;
+ 	font-optical-sizing: auto;
+     	font-style: normal;
+}
+
+input {
+	padding: 5px 15px;
+  	font-family: "Overpass Mono", monospace;
+ 	font-optical-sizing: auto;
+     	font-style: normal;
+ 	border-radius: 35px;
+ 	font-size: 16px;
+	width: 540px;
+}
+
+form {
+	margin: 0px;
+}
+
+a:hover {
+	color: lightgray;
+}
+
+h2 {
+	font-family: "Unica One", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:36px;
+	letter-spacing: 4px;
+	transition-duration: 0.4s;
+	color: white;
+	margin-top: 0px;
+
+	display: block;
+	text-align: center;
+}
+
+h2:hover {
+	letter-spacing: 5px;
+}
+
+/*container*/
+.flex-container {
+      display: flex;
+      justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.flex-container > div {
+	display: flex;
+}
+
+.form-container-student{
+	border-style: solid; 
+	border-width: 2px; 
+	border-color: #A83AC4; /*purple*/
+	width: 540px;
+	border-radius: 35px;
+	padding: 30px;
+}
+
+.form-container-staff{
+	border-style: solid; 
+	border-width: 2px; 
+	border-color: #646EC6; /*blue*/
+	width: 540px;
+	border-radius: 35px;
+	padding: 30px;
+}
+
+/*button*/
+.purpleButton {
+	font-family: "Unica One", sans-serif;
+	font-size: 16px;
+	color: white;
+
+	width: 540px;
+	height: 36px;
+	border: none;
+	outline:none;
+	background-color: #A83AC4;
+	border-radius: 35px;
+
+	transition-duration: 0.4s;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+
+.purpleButton:hover {
+      background-color: #752989;
+      color: white;
+	letter-spacing: 2px;
+
+}
+
+.blueButton {
+	font-family: "Unica One", sans-serif;
+	font-size: 16px;
+	color: white;
+
+	width: 540px;
+	height: 36px;
+	border: none;
+	outline:none;
+	background-color: #646EC6;
+	border-radius: 35px;
+
+	transition-duration: 0.4s;
+	cursor: pointer;
+	letter-spacing: 1px;
+
+}
+
+.blueButton:hover {
+      background-color: #423ca2;
+      color: white;
+	letter-spacing: 2px;
+}

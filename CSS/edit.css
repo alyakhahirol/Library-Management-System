@@ -1,0 +1,179 @@
+.flex-container {
+      display: flex;
+      justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.title-container {
+      display: flex;
+      justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.title-container > div {
+	text-align: center;
+}
+
+.circle-button {
+	margin: 0;
+	overflow: hidden;
+	display: block;
+	background-color: white;
+	border-radius: 25px;
+	transition-duration: 0.4s;
+	border: 2px solid white;
+	width: 35px;
+	height: 35px;
+	margin-right: 20px;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	text-align: center;
+	float: left;
+}
+
+.circle-button:hover {
+	border: 2px solid lightgray;
+      background-color: lightgray;
+      border-radius: 50px;
+}
+
+.circle-button-link {
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: -7px;
+	margin-left: -8px;
+}
+
+.image {
+	height: 35px;
+}
+
+h2 {
+      font-size: 36px;
+      font-family: "Unica One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: white;
+      text-align: center;
+}
+
+.form-container {
+	font-family: "Overpass Mono", monospace;
+     	font-optical-sizing: auto;
+     	font-style: normal;
+ 	color: white;
+
+      display: flex;
+      justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+	background-color: #646EC6;
+	padding: 20px;
+	padding-bottom: 30px;
+	border-radius: 35px;
+	width: 600px;
+}
+
+
+input[type=text] {
+	padding: 5px 15px;
+  	font-family: "Overpass Mono", monospace;
+ 	font-optical-sizing: auto;
+     	font-style: normal;
+ 	border-radius: 35px;
+ 	font-size: 16px;
+}
+
+.form-container > input[type=text] {
+	margin-bottom: 10px;
+}
+
+input[type=date] {
+	padding: 5px 15px;
+	padding-right: 50px;
+  	font-family: "Overpass Mono", monospace;
+ 	font-optical-sizing: auto;
+     	font-style: normal;
+ 	border-radius: 35px;
+ 	font-size: 16px;
+}
+
+input:read-only {
+	background-color: lightgray;
+}
+
+.button-container {
+	margin-top: 15px;
+}
+
+
+.greenButton {
+    background-color: #2E8967;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+    border: none;
+    width: 80px;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: "Unica One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    font-size: 16px;
+}
+    
+.greenButton:hover {
+      background-color: #1F674C;
+      color: white;
+}
+
+.redButton {
+    background-color: #B33A3A;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+    border: none;
+    width: 80px;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: "Unica One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.redButton:hover {
+      background-color: #913030;
+      color: white;
+}
+
+.blueButton {
+	background-color: #272E6A;
+	border-radius: 25px;
+	transition-duration: 0.4s;
+	border: none;
+	width: 80px;
+	color: white;
+	text-align: center;
+	padding: 5px 10px;
+	font-family: "Unica One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.blueButton:hover {
+	background-color: #3C46A2;
+	color: white;
+}

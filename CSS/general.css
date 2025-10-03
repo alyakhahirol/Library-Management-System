@@ -1,0 +1,22 @@
+body {
+	background-color: #090830;
+	font-family: "Overpass Mono", monospace;
+      font-optical-sizing: auto;
+      font-style: normal;
+	color: white;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+p {
+	font-family: "Overpass Mono", monospace;
+      font-optical-sizing: auto;
+      font-style: normal;
+	color: white;
+	font-size: 14px;
+}
